@@ -1,7 +1,7 @@
 package com.example.lds.mysqlcrud;
 
 /**
- * Created by lds on 07/10/2016.
+ * Created by WLDM on 07/10/2016.
  */
 
 public class Config {
@@ -16,14 +16,14 @@ public class Config {
     //Keys that will be used to send the request to php scripts
     public static final String KEY_EMP_ID = "id";
     public static final String KEY_EMP_NAME = "name";
-    public static final String KEY_EMP_DESG = "desg";
+    public static final String KEY_EMP_DESG = "designation";
     public static final String KEY_EMP_SAL = "salary";
 
     //JSON Tags
     public static final String TAG_JSON_ARRAY="result";
     public static final String TAG_ID = "id";
     public static final String TAG_NAME = "name";
-    public static final String TAG_DESG = "desg";
+    public static final String TAG_DESG = "designation";
     public static final String TAG_SAL = "salary";
 
     //employee id to pass with intent

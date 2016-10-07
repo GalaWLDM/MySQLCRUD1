@@ -102,7 +102,6 @@ public class ViewEmployee extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-
     private void updateEmployee(){
         final String name = editTextName.getText().toString().trim();
         final String desg = editTextDesg.getText().toString().trim();
