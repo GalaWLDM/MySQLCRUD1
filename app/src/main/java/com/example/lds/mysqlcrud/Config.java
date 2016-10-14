@@ -7,11 +7,11 @@ package com.example.lds.mysqlcrud;
 public class Config {
 
     //Address of our scripts of the CRUD
-    public static final String URL_ADD="http://192.168.94.1/Android/CRUD/addEmp.php";
-    public static final String URL_GET_ALL = "http://192.168.94.1/Android/CRUD/getAllEmp.php";
-    public static final String URL_GET_EMP = "http://192.168.94.1/Android/CRUD/getEmp.php?id=";
-    public static final String URL_UPDATE_EMP = "http://192.168.94.1/Android/CRUD/updateEmp.php";
-    public static final String URL_DELETE_EMP = "http://192.168.94.1/Android/CRUD/deleteEmp.php?id=";
+    public static final String URL_ADD="http://empleadosunac.000webhostapp.com/addEmp.php";
+    public static final String URL_GET_ALL = "http://empleadosunac.000webhostapp.com/getAllEmp.php";
+    public static final String URL_GET_EMP = "http://empleadosunac.000webhostapp.com/getEmp.php?id=";
+    public static final String URL_UPDATE_EMP = "http://empleadosunac.000webhostapp.com/updateEmp.php";
+    public static final String URL_DELETE_EMP = "http://empleadosunac.000webhostapp.com/deleteEmp.php?id=";
 
     //Keys that will be used to send the request to php scripts
     public static final String KEY_EMP_ID = "id";
