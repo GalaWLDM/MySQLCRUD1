@@ -10,9 +10,9 @@
 	
 	//Defining Constants
 	define('HOST','localhost');
-	define('USER','root');
-	define('PASS','');
-	define('DB','androiddb');
+	define('USER','id27670_williamldm');
+	define('PASS','unac2016');
+	define('DB','id27670_androiddb');
 	
 	//Connecting to Database
 	$con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
